@@ -12,6 +12,6 @@ int main(){
 	scanf("%f",&weight);
 	float bmi= (weight)/pow(height,2);
 	printf("Chi so bmi cua %s la: %.2f ", name,bmi);
-	return 0;
+	return 1;
 
 }
